@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
-    background: #a80077;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .items{
     font-family: 'Lobster', cursive;
     display: inline-block;
-    color: rgb(220, 248, 8);
+    color: rgb(255, 255, 255);
 }
 
 .title-container{
@@ -19,9 +20,11 @@ body{
     margin-left: 30%;
     margin-top: 5%;
     font-size: x-large;
-    color: rgb(0, 4, 14);
-    text-shadow: 2px 2px #b325ab;
+    color: rgb(15, 159, 248);
+    text-shadow: 2px 2px #070707;
 }
+   
+
 
 li{
     display: inline-block;
@@ -35,8 +38,8 @@ li{
     font-family: 'Lobster', cursive;
     margin-left: 3%;
     font-size: 40px;
-    color: rgb(23, 24, 23);
-    text-shadow: 2px 2px #b325ab;
+    color: rgb(15, 159, 248);
+    text-shadow: 2px 2px #070707;       
 
 }
 .round-info{
@@ -44,8 +47,9 @@ li{
     font-family: 'Lobster', cursive;
     margin-left: 40%;
     font-size: 40px;
-    color: rgb(0, 4, 14);
-    text-shadow: 2px 2px #b325ab;
+    color: rgb(15, 159, 248);
+    text-shadow: 2px 2px #070707;    
+    
 }
 
 .ene-gain-loss-container{
@@ -69,8 +73,8 @@ li{
     margin-top: 20px;
     font-family: 'Lobster', cursive;
     font-size: 70px;
-    color: rgb(14, 13, 13);
-    text-shadow: 2px 2px #b325ab;
+    color: rgb(15, 159, 248);
+    text-shadow: 2px 2px #070707;
 }
 
 .cafecito{
@@ -81,14 +85,19 @@ li{
 
 .colabora{
     margin-top: 5%;
-    margin-left: 80%;
+    margin-left: 70%;
 }
 
 .dev{
     margin-top: 5%;
     display: inline-block;
-    margin-left: 40%;
-    color: #272627;
+    margin-left: 37%;
+    color: #0babcf;
     font-size: x-large;
     
+}
+
+.ronin{
+    font-size: large;
+    color: rgb(10, 175, 246);
 }
