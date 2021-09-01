@@ -12,6 +12,7 @@ body{
     font-family: 'Lobster', cursive;
     display: inline-block;
     color: rgb(255, 255, 255);
+    margin-left: 10%;
 }
 
 .title-container{
@@ -25,13 +26,6 @@ body{
 }
    
 
-
-li{
-    display: inline-block;
-    margin: 20px;
-    font-size: x-large;
-    font-family: 'Roboto', sans-serif;
-}
 
 .round-number{
     margin-top: 20%;
@@ -100,4 +94,35 @@ li{
 .ronin{
     font-size: large;
     color: rgb(10, 175, 246);
+}
+
+.parr-abaout{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+.img-container-about{
+    width: 240px;
+    height: 140px;
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+.contac-text{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+.iconos-contact{
+    margin-top: 5%;
+    margin-left: 43%;
+
 }

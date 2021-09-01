@@ -1,59 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="icon"  href="/static/img/favicon.png"">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/main-dist.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contador de energias Axie Infinity</title>
-</head>
-<body onload="uncheckAll()">
-    <!-- barra de menu -->
-    <nav class="navbar navbar-dark bg-primary">
-        <div class="items">
-            
-            <ul>
-            <li id="home">Home</li>
-            <li id="about">Acerca de</li>
-            <li id="contact">Contacto</li>
-            </ul>
-            <!-- Navbar content -->
-          </nav>
-        </div>
-        <!-- titulo principal -->
-        <div class="title-container">
-            <h1>
-                Contador de energias Axie Infinity
-            </h1>
-        </div>
-        <!-- botones -->
-        <div class="main-container">
-            <div class="calculator-container">
-                <div class="round-container">
-                    <span class="round-info">Ronda&nbsp;</span><span id="roundNumber" class="round-number">1</span><br>
-                    <img src="">
-                    
-                    <div class="ene-gain-loss-container">
-                        <div class="eneCalc-item">
-                            <button class="btn" onclick="subtract()">-1 Ene</button>
-                        </div>
-        
-                        <div class="eneCalc-item">
-                            <button class="btn" onclick="add()">+1 Ene</button>
-                        </div>
-        
-                        <div class="eneCalc-item">
-                            <button class="btn" onclick="nextRound()">Siguiente Round</button>
-                        </div>
-        
-                        <div class="eneCalc-item">
-                            <button class="btn" onclick="reset()">Nueva Arena</button>
-                        </div>
+{% extends "base.html" %}
+{% block content %}
+        <!-- Maiin content -->
+        <main>
+            <div class="main-container">
+                <div class="calculator-container">
+                    <div class="round-container">
+                        <span class="round-info">Ronda&nbsp;</span><span id="roundNumber" class="round-number">1</span><br>
+                        <img src="">
+                        
+                        <div class="ene-gain-loss-container">
+                            <div class="eneCalc-item">
+                                <button class="btn" onclick="subtract()">-1 Ene</button>
+                            </div>
+                        
+                            <div class="eneCalc-item">
+                                <button class="btn" onclick="add()">+1 Ene</button>
+                            </div>
+                            
+                            <div class="eneCalc-item">
+                                <button class="btn" onclick="nextRound()">Siguiente Round</button>
+                            </div>
+                            
+                            <div class="eneCalc-item">
+                                <button class="btn" onclick="reset()">Nueva Arena</button>
+                            </div>
                     </div>
-
+                    
                 </div>
                 <div class="energy-quantity">
                     <span id="energyQuantity">3</span><span>/10</span>
@@ -62,20 +34,8 @@
                 
                 <script src="/static/js/energyCalculator.js"></script>
             </div>
-    </body>
-
-    <footer>
-        <div class="cafecito">
-            <img class="coffe" src="/static/img/coffee.png" alt="">
-        </div>
-        <div class="colabora">
+        </main>
+        
+{% endblock %}
             
-            <a href="https://www.buymeacoffee.com/josemoralesdev">colabora con un cafe</a>
-            <h3 class="ronin">ronin:19156a9a6045c5acad7183014b768853cd621dcd</h3>
-        </div>
-
-        <div class="dev">
-            <h6>JoseMoralesDev - 2021  -   v1.0.0</h6>
-        </div>
-    </footer>
-    </html>
+            
